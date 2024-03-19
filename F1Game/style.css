@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+h1, #saldo, input[type="number"], select {
+    margin-bottom: 20px;
+}
+
+input[type="number"], select, button {
+    width: calc(50% - 5px);
+    padding: 8px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pista {
+
+    width: 599px;
+    height: 300px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.carro {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+#vermelho {
+    background-color: red;
+    position: absolute;
+}
+
+#azul {
+    background-color: blue;
+    margin-top: 50px;
+    position: absolute;
+}
+
+#verde {
+    background-color: green;
+    margin-top: 100px;
+    position: absolute;
+}
+
+#amarelo {
+    background-color: yellow;
+    margin-top: 150px;
+    position: absolute;
+}
+
+#roxo {
+    background-color: purple;
+    margin-top: 200px;
+    position: absolute;
+}

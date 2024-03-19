@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formula 1 Game</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body onload="init()"> <!-- inicializa e executa acões a pagina  -->
+  <div class="container">
+    <h1>Formula 1 Game</h1>
+    <div id="saldo">Saldo: R$100</div>
+    <input type="number" id="valorAposta" min="5" placeholder="digite o valor da aposta:">
+    <select id="pilotos">
+      <option value="vermelho">piloto vermelho</option>
+      <option value="azul">piloto azul</option>
+      <option value="verde">piloto verde</option>
+      <option value="amarelo">piloto amarelo</option>
+      <option value="roxo">piloto roxo</option>
+    </select>
+    <button onclick="realizarAposta()">Apostar</button>
+    <p id="resultado"></p>
+  </div>
+  <div class="pista">
+    <div id="vermelho" class="carro"></div>
+    <div id="azul" class="carro"></div>
+    <div id="verde" class="carro"></div>
+    <div id="amarelo" class="carro"></div>
+    <div id="roxo" class="carro"></div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
